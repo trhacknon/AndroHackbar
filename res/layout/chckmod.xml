@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:background="#000000">
+
+	<LinearLayout
+		android:layout_height="100dp"
+		android:layout_width="100dp"
+		android:background="@drawable/bggh"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:textColor="#FFEEEB"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:textStyle="bold"
+		android:text="@string/app_name"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Application have been modified!"
+		android:textColor="#DFDFDF"
+		android:layout_marginTop="10dp"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Please reinstall original app to use it again."
+		android:textColor="#CECECE"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Download it here"
+		android:textColor="#DEDEDE"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="https://zyberph.com"
+		android:textColor="#235ED5"
+		android:textStyle="bold"/>
+
+	<Button
+		android:layout_marginTop="10dp"
+		android:layout_height="40dp"
+		android:layout_width="100dp"
+		android:onClick="xit"
+		android:text="OK"/>
+
+</LinearLayout>
+

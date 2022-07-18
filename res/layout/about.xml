@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		android:padding="10dp"
+		android:background="#080707">
+
+		<RelativeLayout
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:gravity="center">
+
+			<LinearLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:orientation="vertical"
+				android:gravity="center_horizontal">
+
+				<LinearLayout
+					android:layout_height="100dp"
+					android:layout_width="116dp"
+					android:orientation="vertical"
+					android:background="@drawable/iczph"/>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:orientation="horizontal"
+					android:gravity="center_vertical">
+
+					<LinearLayout
+						android:layout_height="25dp"
+						android:layout_width="25dp"
+						android:orientation="vertical"
+						android:background="@drawable/ahlogo"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="ANDRO HACKBAR"
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:layout_width="wrap_content"
+						android:textColor="#EEEEEE"
+						android:layout_marginLeft="4dp"/>
+
+				</LinearLayout>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="Powered by"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_width="wrap_content"
+					android:textColor="#C5C5C5"
+					android:textStyle="bold"/>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="match_parent"
+					android:orientation="horizontal"
+					android:gravity="center">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Blood Security International"
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:layout_width="wrap_content"
+						android:textColor="#F4F4F4"
+						android:shadowColor="#FD2315"
+						android:shadowRadius="0.9"
+						android:layout_marginLeft="15dp"
+						android:textStyle="bold"/>
+
+					<LinearLayout
+						android:layout_height="30dp"
+						android:layout_width="31dp"
+						android:orientation="vertical"
+						android:background="@drawable/bshlogo"
+						android:layout_marginLeft="5dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:layout_height="wrap_content"
+					android:layout_width="wrap_content"
+					android:orientation="vertical"
+					android:layout_marginTop="10dp"
+					android:gravity="center">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="Andro Hackbar is a web security audit tool where you can perform sql injections, lfi and other vulnerabilities on your site. This app was developed by"
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:layout_width="wrap_content"
+						android:textColor="#E2E2E2"
+						android:gravity="center"
+						android:shadowColor="#FFFFFF"
+						android:shadowRadius="9.0"
+						android:layout_marginRight="4dp"/>
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:text="@string/dev"
+						android:textAppearance="?android:attr/textAppearanceSmall"
+						android:layout_width="wrap_content"
+						android:shadowColor="#003466"
+						android:shadowRadius="9.0"
+						android:textColor="#31C214"
+						android:id="@+id/devn"/>
+
+				</LinearLayout>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="www.zyberph.com"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_width="wrap_content"
+					android:textColor="#529644"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="Special thanks:\nBl4ckByt3 for the logo.\nGithub user (i forgot) for admin scanner\nT.PRO for the queries  and to all who make this app possible."
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_width="wrap_content"
+					android:layout_marginTop="4dp"
+					android:gravity="center"
+					android:textColor="#DEDEDE"/>
+
+				<TextView
+					android:layout_height="wrap_content"
+					android:text="Visit us here: fb.com/zyberphdevelopers\nOfficial Page: https://facebook.com/androidhackbar"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_width="wrap_content"
+					android:textColor="#FFFFFF"
+					android:layout_marginTop="10dp"
+					android:shadowColor="#0053BB"
+					android:shadowRadius="9.0"
+					android:gravity="center"/>
+
+				<View
+					android:layout_height="1dp"
+					android:background="?android:attr/dividerVertical"
+					android:layout_width="match_parent"/>
+
+			</LinearLayout>
+
+		</RelativeLayout>
+
+	</LinearLayout>
+
+</ScrollView>
+

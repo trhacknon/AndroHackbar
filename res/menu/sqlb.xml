@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+        android:id="@+id/item"
+        android:title="SQL: Order By"/>
+
+	<item
+        android:id="@+id/item"
+        android:title="SQL: Union Select"/>
+	
+    <item
+        android:id="@+id/item"
+        android:title="SQL: Union Based"/>
+    
+	<item
+        android:id="@+id/item"
+        android:title="SQL: Error Based"/>
+	
+	<item
+        android:id="@+id/item"
+        android:title="SQL: Postgre"/>
+	<item
+        android:id="@+id/item"
+        android:title="SQL: MSSQL"/>
+	
+	
+    	<item
+        android:id="@+id/item"
+        android:title="SQL: SYS_VAR"/>
+	<item
+        android:id="@+id/item"
+        android:title="XSS: Payloads"/>
+	<item
+        android:id="@+id/item"
+        android:title="LFI: Payloads"/>
+	
+</menu>

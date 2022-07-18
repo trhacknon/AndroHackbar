@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/item"
+        android:title="LFI Upload"/>
+	<item
+        android:id="@+id/item"
+        android:title="Tiny Shell"/>
+	<item
+        android:id="@+id/item"
+        android:title="Injection Type"/>
+	<item
+        android:id="@+id/item"
+        android:title="CMD"/>
+    
+</menu>

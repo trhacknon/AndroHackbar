@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:padding="10dp"
+	android:background="@drawable/button_style">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="Basic DIOS 1"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:layout_marginBottom="10dp"
+		android:textColor="#08E720"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="Vulnerable Column"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:textColor="#F9F9F9"/>
+
+	<EditText
+		android:layout_height="38dp"
+		android:ems="10"
+		android:imeOptions="flagNoExtractUi"
+		android:layout_width="match_parent"
+		android:id="@+id/editText1"
+		android:textColor="#11E613"
+		android:background="#000000"/>
+
+	<View
+		android:layout_height="1dp"
+		android:background="?android:attr/dividerVertical"
+		android:layout_width="match_parent"/>
+
+</LinearLayout>
+

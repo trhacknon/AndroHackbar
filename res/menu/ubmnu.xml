@@ -1,0 +1,63 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/item"
+        android:title="Columns"/>
+    
+	<item
+        android:id="@+id/item"
+        android:title="Table"/>
+	<item
+        android:id="@+id/item"
+        android:title="Database"/>
+	<item
+        android:id="@+id/item"
+        android:title="Dump data"/>
+	<item
+        android:id="@+id/item"
+        android:title="Basic DIOS 1"/>
+    
+	<item
+        android:id="@+id/item"
+        android:title="Basic DIOS 2"/>
+	<item
+        android:id="@+id/item"
+        android:title="DIOS by d4rkj1n"/>
+	<item
+        android:id="@+id/item"
+        android:title="DIOS by d4rkj1n WAF"/>
+    
+	<item
+        android:id="@+id/item"
+        android:title="DIOS by tr0jan WAF"/>
+    
+	<item
+        android:id="@+id/item"
+        android:title="DIOS by Madblood WAF"/>
+	
+	<item
+        android:id="@+id/item"
+        android:title="DIOS by r0ot@h3x49"/>
+    
+	<item
+        android:id="@+id/item"
+        android:title="DIOS by Madblood r00t"/>
+    
+	<item
+        android:id="@+id/item"
+        android:title="DIOS by DR. Z3RO"/>
+
+	<item
+        android:id="@+id/item"
+        android:title="DIOS by Makman2"/>
+
+	<item
+        android:id="@+id/item"
+        android:title="DIOS by Zen WAF"/>
+
+	<item
+        android:id="@+id/item"
+        android:title="DIOS WAF"/>
+
+	
+</menu>

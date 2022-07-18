@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:padding="10dp"
+	android:background="@drawable/button_style">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="WAF Bypass (/*!50000*/)"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:layout_marginBottom="10dp"
+		android:textColor="#04B112"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="String to use"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:textColor="#F9F9F9"/>
+
+	<EditText
+		android:layout_height="38dp"
+		android:ems="10"
+		android:imeOptions="flagNoExtractUi"
+		android:layout_width="match_parent"
+		android:id="@+id/editText1"
+		android:background="#000000"
+		android:textColor="#04B112"
+		android:typeface="monospace"
+		android:textSize="12sp"/>
+
+	<View
+		android:layout_height="1dp"
+		android:background="?android:attr/dividerVertical"
+		android:layout_width="match_parent"/>
+
+</LinearLayout>
+

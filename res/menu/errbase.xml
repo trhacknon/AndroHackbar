@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/item"
+        android:title="DATABASE"/>
+       <item
+        android:id="@+id/item"
+        android:title="TABLE"/>
+	<item
+        android:id="@+id/item"
+        android:title="COLUMN"/>
+       <item
+        android:id="@+id/item"
+        android:title="DUMP DATA"/>
+	<item
+        android:id="@+id/item"
+        android:title="XML UPDATE"/>
+    
+	
+</menu>

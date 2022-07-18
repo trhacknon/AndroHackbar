@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/item"
+        android:title="QUERY 1"/>
+       <item
+        android:id="@+id/item"
+        android:title="QUERY 2"/>
+	<item
+        android:id="@+id/item"
+        android:title="QUERY 3"/>
+     
+</menu>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:background="@drawable/button_style">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="vertical"
+		android:gravity="center_horizontal">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="Andro Hackbar Manual"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="match_parent"
+			android:padding="10dp"
+			android:textColor="#FFFFFF"
+			android:textStyle="bold"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="VECTOR - Vector button consist of different attacks such as SQLI, XSS and LFI payloads."
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="match_parent"
+			android:padding="10dp"
+			android:textColor="#FFFFFF"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="ENCODING - This button consist of different encodings.\nHow to use?: Just highlight the text you want to encode then press ENCODING button, Menu will popup then choose encoding you want."
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="match_parent"
+			android:padding="10dp"
+			android:textColor="#FFFFFF"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="WAF - WAF stands for Web Application Firewall. This button gives you an example of waf bypass."
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="match_parent"
+			android:padding="10dp"
+			android:textColor="#FFFFFF"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="LOAD URL - This button will load the browser's current url."
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="match_parent"
+			android:padding="10dp"
+			android:textColor="#FFFFFF"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="CLEAR - This button will clear all your text in query box."
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="match_parent"
+			android:padding="10dp"
+			android:textColor="#FFFFFF"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="EXECUTE - Execute your query."
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="match_parent"
+			android:padding="10dp"
+			android:textColor="#FFFFFF"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="QUERY BOX - This is the biggest text box you can see in the app. In crafting injection code, you need to use this for better reading."
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="match_parent"
+			android:padding="10dp"
+			android:textColor="#FFFFFF"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="POST - This option will let you post a url parameters in website url."
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="match_parent"
+			android:padding="10dp"
+			android:textColor="#FFFFFF"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="JS - Javascript. This will let you enable/disable javascript on a webpage."
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="match_parent"
+			android:padding="10dp"
+			android:textColor="#FFFFFF"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="EXTRACT - You can extract links on a current webpage."
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="match_parent"
+			android:padding="10dp"
+			android:textColor="#FFFFFF"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="VIEW SOURCE - You can view the source of a current page."
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="match_parent"
+			android:padding="10dp"
+			android:textColor="#FFFFFF"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="ADMIN FINDER - In More &gt; Admin scanner. This will help you find an admin panel of a website. Thanks to the author of original source code (user@github) I forgot who is he xD"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="match_parent"
+			android:padding="10dp"
+			android:textColor="#FFFFFF"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="SHOW/HIDE - This button will show or hide the hackbar."
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="match_parent"
+			android:padding="10dp"
+			android:textColor="#FFFFFF"/>
+
+	</LinearLayout>
+
+</ScrollView>
+

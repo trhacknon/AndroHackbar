@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	
+	  <item
+        android:id="@+id/iatem"
+        android:title="HEX"/>
+	<item
+        android:id="@+id/item"
+        android:title="UNHEX"/>
+	
+	<item
+        android:id="@+id/item"
+        android:title="URLENCODE"/>
+	<item
+        android:id="@+id/item"
+        android:title="URLDECODE"/>
+	<item
+        android:id="@+id/item"
+        android:title="MD5"/>
+	<item
+        android:id="@+id/item"
+        android:title="SHA-1"/>
+	
+	<item
+        android:id="@+id/item"
+        android:title="BASE64 ENC"/>
+	<item
+        android:id="@+id/item"
+        android:title="BASE64 DEC"/>
+    <item
+        android:id="@+id/item"
+        android:title="SQL: MYSQL"/>
+    <item
+        android:id="@+id/item"
+        android:title="SQL: MSSQL"/>
+    <item
+        android:id="@+id/item"
+        android:title="SQL: ORACLE"/>
+    <item
+		android:id="@+id/item"
+		android:title="STR.FROMCHARCODE"/>
+	
+	  <item
+		android:id="@+id/item"
+		android:title="STR.HTML"/>
+	
+</menu>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:gravity="center_vertical"
+	android:padding="4dp"
+	android:background="@drawable/button_style">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="Current URL"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:textStyle="bold"
+		android:textColor="#FFFFFF"/>
+
+	<ScrollView
+		android:layout_height="100dp"
+		android:layout_width="match_parent"
+		android:background="#000000">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:id="@+id/lurl"
+			android:textColor="#04B112"
+			android:typeface="monospace"
+			android:textSize="12sp"/>
+
+	</ScrollView>
+
+	<View
+		android:layout_height="1dp"
+		android:background="?android:attr/dividerVertical"
+		android:layout_width="match_parent"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="Choose where to load"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:layout_marginTop="10dp"
+		android:textColor="#FFFFFF"/>
+
+	<View
+		android:layout_height="1dp"
+		android:background="?android:attr/dividerVertical"
+		android:layout_width="match_parent"/>
+
+</LinearLayout>
+

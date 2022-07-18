@@ -1,0 +1,40 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item"
+        android:title="Manual" />
+	<item
+        android:id="@+id/item"
+        android:title="Reload" />
+	
+   	<item
+        android:id="@+id/item"
+        android:title="PHP Script" />
+	
+	
+	
+	<item
+        android:id="@+id/item"
+        android:title="User Agent"/>
+	
+	<item
+        android:id="@+id/item"
+        android:title="Hash killer"/>
+
+	<item
+        android:id="@+id/item"
+        android:title="Admin Scanner" />
+
+	<item
+        android:id="@+id/item"
+        android:title="About"/>
+
+	<item
+        android:id="@+id/item"
+        android:title="Disable Ads" />
+	
+	<item
+        android:id="@+id/item"
+        android:title="Exit"/>
+	
+    
+</menu>

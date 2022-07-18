@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+	android:background="#702824">
+
+	<WebView
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:id="@+id/webView1"
+		android:layout_marginBottom="40dp">
+
+	</WebView>
+
+	<LinearLayout
+		android:animateLayoutChanges="true"
+		android:layout_height="match_parent"
+		android:layout_width="match_parent"
+		android:id="@+id/mli"
+		android:orientation="vertical"
+		android:alpha="0.9"
+		android:visibility="visible"
+		android:background="#6F231E">
+
+		<LinearLayout
+			android:layout_height="35dp"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:gravity="center_vertical"
+			android:padding="1dp"
+			android:layout_marginLeft="4dp"
+			android:layout_marginRight="4dp"
+			android:background="#702824"
+			android:layout_marginTop="3dp">
+
+			<ProgressBar
+				android:layout_height="20dp"
+				android:layout_width="20dp"
+				android:layout_marginLeft="3dp"
+				android:id="@+id/p1"
+				android:visibility="gone"
+				android:layout_weight="1.2"
+				android:layout_marginRight="3dp"/>
+
+			<EditText
+				android:layout_height="match_parent"
+				android:ems="10"
+				android:layout_width="100dp"
+				android:id="@+id/urlField"
+				android:textSize="13sp"
+				android:imeOptions="flagNoExtractUi"
+				android:padding="5dp"
+				android:textColor="#EBEBEB"
+				android:singleLine="true"
+				android:text="http://"
+				android:layout_weight="2.0"
+				android:background="@drawable/button_style"/>
+
+			<Button
+				android:layout_height="match_parent"
+				style="?android:attr/buttonStyleSmall"
+				android:text="×"
+				android:id="@+id/gostopb"
+				android:layout_width="45dp"
+				android:layout_marginLeft="1dp"
+				android:visibility="gone"
+				android:onClick="gostop"
+				android:textColor="#ffffff"
+				android:textStyle="bold"
+				android:background="@drawable/button_style"/>
+
+			<Button
+				android:layout_height="match_parent"
+				style="?android:attr/buttonStyleSmall"
+				android:text="←"
+				android:layout_width="45dp"
+				android:onClick="goback"
+				android:textColor="#FFFFFF"
+				android:textStyle="bold"
+				android:layout_weight="1.2"
+				android:background="@drawable/button_style"/>
+
+			<Button
+				android:layout_height="match_parent"
+				style="?android:attr/buttonStyleSmall"
+				android:text="→"
+				android:layout_width="45dp"
+				android:onClick="goforward"
+				android:textColor="#FFFFFF"
+				android:textStyle="bold"
+				android:layout_weight="1.2"
+				android:background="@drawable/button_style"/>
+
+			<Button
+				android:layout_height="match_parent"
+				style="?android:attr/buttonStyleSmall"
+				android:text="Go"
+				android:layout_width="45dp"
+				android:id="@+id/open"
+				android:textSize="13sp"
+				android:textColor="#FFFFFF"
+				android:onClick="open"
+				android:layout_weight="1.2"
+				android:background="@drawable/button_style"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="36dp"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:gravity="center_vertical">
+
+			<Button
+				android:layout_height="match_parent"
+				style="?android:attr/buttonStyleSmall"
+				android:text="VECTOR ▼"
+				android:layout_width="100dp"
+				android:id="@+id/ub"
+				android:onClick="ub"
+				android:textColor="#FFFFFF"
+				android:layout_weight="1.5"
+				android:textSize="13sp"
+				android:layout_marginLeft="4dp"
+				android:background="@drawable/button_style"/>
+
+			<Button
+				android:layout_height="match_parent"
+				style="?android:attr/buttonStyleSmall"
+				android:text="ENCODE ▼"
+				android:layout_width="100dp"
+				android:id="@+id/sqlchar"
+				android:icon="@drawable/sql"
+				android:onClick="sqlcharconvert"
+				android:textColor="#FFFFFF"
+				android:layout_weight="1.5"
+				android:textSize="13sp"
+				android:background="@drawable/button_style"/>
+
+			<Button
+				android:layout_height="match_parent"
+				style="?android:attr/buttonStyleSmall"
+				android:text="WAF ▼"
+				android:layout_width="100dp"
+				android:id="@+id/waf"
+				android:onClick="waf"
+				android:textColor="#FEFEFE"
+				android:layout_weight="1.5"
+				android:textSize="13sp"
+				android:background="@drawable/button_style"/>
+
+			<Button
+				android:layout_height="match_parent"
+				style="?android:attr/buttonStyleSmall"
+				android:text="MORE ▼"
+				android:layout_width="100dp"
+				android:gravity="center"
+				android:id="@+id/optb"
+				android:onClick="opt"
+				android:textColor="#FFFFFF"
+				android:layout_weight="1.5"
+				android:textSize="13sp"
+				android:layout_marginRight="4dp"
+				android:background="@drawable/button_style"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="35dp"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:layout_marginBottom="1dp"
+			android:id="@+id/vertmainLinearLayout3"
+			android:alpha="0.9"
+			android:layout_marginTop="1dp">
+
+			<Button
+				android:layout_height="match_parent"
+				style="?android:attr/buttonStyleSmall"
+				android:text="LOAD URL"
+				android:layout_width="wrap_content"
+				android:layout_weight="1.5"
+				android:textColor="#F0F0F0"
+				android:onClick="loadurl"
+				android:background="@drawable/button_style"
+				android:layout_marginLeft="4dp"/>
+
+			<Button
+				android:layout_height="match_parent"
+				style="?android:attr/buttonStyleSmall"
+				android:text="CLEAR"
+				android:layout_width="wrap_content"
+				android:layout_weight="1.5"
+				android:textColor="#F7F7F7"
+				android:onClick="clr"
+				android:background="@drawable/button_style"/>
+
+			<Button
+				android:layout_height="match_parent"
+				style="?android:attr/buttonStyleSmall"
+				android:text="PARSE"
+				android:layout_width="wrap_content"
+				android:layout_weight="1.5"
+				android:textColor="#FFFFFF"
+				android:id="@+id/execqf"
+				android:onClick="parse"
+				android:background="@drawable/button_style"/>
+
+			<Button
+				android:layout_height="match_parent"
+				style="?android:attr/buttonStyleSmall"
+				android:text="EXECUTE"
+				android:layout_width="wrap_content"
+				android:layout_weight="1.5"
+				android:textColor="#FFFFFF"
+				android:id="@+id/execqf"
+				android:onClick="execqf"
+				android:background="@drawable/button_style"
+				android:layout_marginRight="4dp"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:layout_height="match_parent"
+			android:layout_width="match_parent"
+			android:orientation="vertical"
+			android:id="@+id/vertmainLinearLayout1"
+			android:background="#702824">
+
+			<EditText
+				android:layout_height="match_parent"
+				android:inputType="textMultiLine"
+				android:ems="10"
+				android:layout_width="match_parent"
+				android:textSize="13sp"
+				android:gravity="top"
+				android:padding="6dp"
+				android:textColor="#7F1003"
+				android:id="@+id/qfield"
+				android:imeOptions="flagNoExtractUi"
+				android:layout_weight="1.5"
+				android:background="#DFDFDF"
+				android:layout_marginLeft="6dp"
+				android:layout_marginRight="5dp"
+				android:layout_marginTop="1dp"
+				android:textStyle="bold"/>
+
+			<HorizontalScrollView
+				android:layout_height="101dp"
+				android:layout_width="match_parent"
+				android:layout_marginTop="1dp"
+				android:layout_weight="1.0"
+				android:layout_marginBottom="40dp">
+
+				<LinearLayout
+					android:layout_height="match_parent"
+					android:layout_width="match_parent"
+					android:orientation="horizontal"
+					android:padding="3dp"
+					android:gravity="center_vertical"
+					android:background="#6F231E">
+
+					<ToggleButton
+						android:layout_height="match_parent"
+						android:layout_width="70dp"
+						android:textSize="13sp"
+						android:textColor="#F1F1F1"
+						android:onClick="postcheck"
+						android:textOff="POST: OFF"
+						android:textOn="POST: ON"
+						android:background="#0076241E"/>
+
+					<View
+						android:layout_height="match_parent"
+						android:background="?android:attr/dividerHorizontal"
+						android:layout_width="1dp"/>
+
+					<EditText
+						android:layout_height="27dp"
+						android:ems="10"
+						android:layout_width="100dp"
+						android:textSize="12sp"
+						android:imeOptions="flagNoExtractUi"
+						android:textColor="#F5F5F5"
+						android:inputType="textMultiLine"
+						android:id="@+id/postdata"
+						android:gravity="center_vertical"
+						android:visibility="gone"
+						android:hint="INSERT PARAM"
+						android:textColorHint="#DBDBDB"
+						android:background="#702824"
+						android:paddingLeft="2dp"/>
+
+					<Button
+						android:layout_height="28dp"
+						style="?android:attr/buttonStyleSmall"
+						android:text="VIEW SOURCE"
+						android:layout_width="100dp"
+						android:textSize="12sp"
+						android:id="@+id/srcbtn"
+						android:onClick="get"
+						android:textColor="#FFFFFF"
+						android:background="#00000000"
+						android:layout_marginLeft="3dp"/>
+
+					<View
+						android:layout_height="match_parent"
+						android:layout_width="0.8dp"
+						android:background="#32CBC7C7"/>
+
+					<Button
+						android:layout_height="28dp"
+						style="?android:attr/buttonStyleSmall"
+						android:text="EXTRACT LINK"
+						android:layout_width="100dp"
+						android:textSize="12sp"
+						android:id="@+id/srcbtn"
+						android:onClick="extractlink"
+						android:textColor="#FFFFFF"
+						android:background="#00000000"/>
+
+					<View
+						android:layout_height="match_parent"
+						android:layout_width="0.8dp"
+						android:background="#32CBC7C7"/>
+
+					<Button
+						android:layout_height="28dp"
+						android:text="COPY QUERY"
+						android:layout_width="100dp"
+						android:textColor="#FFFFFF"
+						android:onClick="copyquery"
+						android:textSize="12sp"
+						android:background="#00000000"/>
+
+					<View
+						android:layout_height="match_parent"
+						android:background="?android:attr/dividerHorizontal"
+						android:layout_width="1dp"/>
+
+					<ToggleButton
+						android:layout_height="match_parent"
+						android:layout_width="70dp"
+						android:textSize="13sp"
+						android:textColor="#F6F6F6"
+						android:onClick="jsoff"
+						android:textOff="JS: OFF"
+						android:textOn="JS: ON"
+						android:background="#0076241E"/>
+
+					<View
+						android:layout_height="match_parent"
+						android:background="?android:attr/dividerHorizontal"
+						android:layout_width="1dp"
+						android:layout_marginLeft="3dp"/>
+
+					<EditText
+						android:layout_height="27dp"
+						android:ems="10"
+						android:layout_width="100dp"
+						android:id="@+id/findtxt"
+						android:imeOptions="flagNoExtractUi"
+						android:textSize="12sp"
+						android:textColor="#FFFFFF"
+						android:hint="Find in page"
+						android:textColorHint="#BCBCBC"
+						android:layout_marginLeft="2dp"
+						android:background="#702824"
+						android:gravity="center_vertical"
+						android:paddingLeft="3dp"/>
+
+					<LinearLayout
+						android:layout_height="25dp"
+						android:layout_width="25dp"
+						android:onClick="findon"
+						android:background="@drawable/search"/>
+
+				</LinearLayout>
+
+			</HorizontalScrollView>
+
+		</LinearLayout>
+
+		<View
+			android:layout_height="1dp"
+			android:background="?android:attr/dividerVertical"
+			android:layout_width="match_parent"
+			android:layout_above="@id/vertmainLinearLayout1"
+			android:id="@+id/vertmainView1"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:layout_height="40dp"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:padding="2dp"
+		android:gravity="right|center_vertical"
+		android:layout_alignParentBottom="true"
+		android:id="@+id/vertmainLinearLayout2"
+		android:background="#6F231E">
+
+		<LinearLayout
+			android:layout_height="25dp"
+			android:layout_width="match_parent"
+			android:orientation="horizontal"
+			android:layout_weight="1.5">
+
+			<LinearLayout
+				android:layout_height="26dp"
+				android:layout_width="28dp"
+				android:orientation="vertical"
+				android:background="@drawable/ahlogo"/>
+
+			<TextView
+				android:layout_height="match_parent"
+				android:text="Version: 2.8   Build: 87"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="wrap_content"
+				android:gravity="center_vertical"
+				android:textColor="#D0D0D0"
+				android:paddingRight="5dp"
+				android:layout_marginLeft="3dp"/>
+
+		</LinearLayout>
+
+		<ToggleButton
+			android:layout_height="31dp"
+			android:layout_width="90dp"
+			android:textSize="12sp"
+			android:textColor="#F6F6F6"
+			android:onClick="showhide"
+			android:textOff="HIDE"
+			android:textOn="SHOW"
+			android:layout_marginLeft="3dp"
+			android:background="@drawable/button_style"
+			android:layout_marginRight="4dp"/>
+
+	</LinearLayout>
+
+	<View
+		android:layout_height="0.8dp"
+		android:layout_width="match_parent"
+		android:layout_above="@id/vertmainLinearLayout2"
+		android:background="#32D2D2D2"/>
+
+</RelativeLayout>
+

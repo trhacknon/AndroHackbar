@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:padding="10dp"
+	android:background="@drawable/button_style">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="horizontal">
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:text="DIOS by d4rkj1n WAF"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="wrap_content"
+			android:textColor="#04B112"
+			android:layout_marginBottom="10dp"/>
+
+		<LinearLayout
+			android:layout_height="30dp"
+			android:layout_width="30dp"
+			android:orientation="vertical"
+			android:background="@drawable/bshlogo"
+			android:layout_marginLeft="5dp"/>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="Vulnerable Column"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:textColor="#F9F9F9"/>
+
+	<EditText
+		android:layout_height="38dp"
+		android:ems="10"
+		android:imeOptions="flagNoExtractUi"
+		android:layout_width="match_parent"
+		android:id="@+id/editText1"
+		android:background="#000000"
+		android:textColor="#04B112"/>
+
+	<View
+		android:layout_height="1dp"
+		android:background="?android:attr/dividerVertical"
+		android:layout_width="match_parent"/>
+
+</LinearLayout>
+

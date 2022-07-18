@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:padding="10dp"
+	android:background="@drawable/querytxt">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="Source Code"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:layout_marginBottom="10dp"
+		android:textColor="#FFFFFF"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="URL:"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="wrap_content"
+		android:textColor="#F9F9F9"
+		android:id="@+id/srcurl"/>
+
+	<View
+		android:layout_height="1dp"
+		android:background="?android:attr/dividerVertical"
+		android:layout_width="match_parent"/>
+
+	<EditText
+		android:layout_height="match_parent"
+		android:ems="10"
+		android:imeOptions="flagNoExtractUi"
+		android:layout_width="match_parent"
+		android:id="@+id/editText1"
+		android:inputType="textMultiLine"
+		android:background="@drawable/querytxt"
+		android:textSize="13sp"
+		android:textColor="#FFFFFF"/>
+
+	<View
+		android:layout_height="1dp"
+		android:background="?android:attr/dividerVertical"
+		android:layout_width="match_parent"/>
+
+</LinearLayout>
+

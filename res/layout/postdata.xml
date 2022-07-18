@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<EditText
+		android:layout_height="match_parent"
+		android:inputType="textMultiLine"
+		android:ems="10"
+		android:layout_width="match_parent"
+		android:background="@drawable/querytxt"
+		android:id="@+id/postdatatxt"
+		android:textColor="#F8F8F8"
+		android:textSize="13sp"
+		android:gravity="top"
+		android:padding="4dp"/>
+
+</LinearLayout>
+
